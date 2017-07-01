@@ -8,7 +8,7 @@ class BDDManager
             $conexion = mysqli_connect("localhost", "root", "", "cine");
             if ($conexion == false) {
                 echo "Error en la conexion a la base de datos" . $conexion;
-                die("Error en la conexion a la base de datos");
+                die("Error en la conexion a la base de datoss");
             }
             return $conexion;
         }
